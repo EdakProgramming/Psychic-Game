@@ -32,7 +32,7 @@ computerChooses();
 
 // This function displays the number of guesses the player has left in the round
 function turnsLeft(){
-  document.querySelector("#guessesLeft").innerHTML = "Turns Left: " + userScore.guessesLeft;
+  document.querySelector("#guessesLeft").innerHTML = "Turns Left: " + userScore.turnsLeft;
 }
 turnsLeft();
 

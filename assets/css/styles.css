@@ -1,0 +1,29 @@
+body{
+	font-family: 'Diplomata SC', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-family: "Times New Roman", Times, serif;
+	background-color: teal;
+	color:white;
+}
+
+.Game-Title{
+	text-align: center;
+	padding-bottom: 20px; 
+}
+
+.Game-Header{
+	padding-bottom: 10px;
+}
+
+.col-xs-4{
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#guessedLetter{
+	
+	font-size: 24px;
+
+}

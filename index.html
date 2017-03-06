@@ -4,33 +4,43 @@
 	
 	<meta charset="UTF-8">
 	<title>Psychic Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Diplomata+SC|Playfair+Display|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/styles.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
-	<div class="wrapper">
-		<div class="#">
-			<h1>The Amazing Psychic Game</h1>
-			<h2>Guess what letter I'm thinking of:</h2>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="Game-Title">
+				<h1>The Amazing Psychic Game</h1>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="Game-Header">
+				<h2>Guess what letter I'm thinking of:</h2>
+			</div>
 		</div>
 
-		<div class="column" id="wins">
-			<p>Wins</p>
+		<div class="row">
+			<div class="col-xs-4" id="wins">
+				<p>Wins</p>
+			</div>
+
+			<div class="col-xs-4" id="losses">
+				<p>Losses</p>
+			</div>
+
+			<div class="col-xs-4" id="guessesLeft">
+				<p>Guesses left</p>
+			</div>
 		</div>
 
-		<div class="column" id="losses">
-			<p>Losses</p>
-		</div>
-
-		<div class="column" id="guessesLeft">
-			<p>Guesses left</p>
-		</div>
-
-		<div class="column" id="guessedLetter">
+		<div class="row" id="guessedLetter">
 			<p>Your Guesses so far:</p>
 		</div>
 	</div>
